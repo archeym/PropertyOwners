@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		A1FE15D11E91EB570007857F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE15D01E91EB570007857F /* main.m */; };
 		A1FE15D41E91EB570007857F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE15D31E91EB570007857F /* AppDelegate.m */; };
-		A1FE15D71E91EB570007857F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE15D61E91EB570007857F /* ViewController.m */; };
 		A1FE15DA1E91EB570007857F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FE15D81E91EB570007857F /* Main.storyboard */; };
 		A1FE15DD1E91EB570007857F /* Week3Assessment_Archie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1FE15DB1E91EB570007857F /* Week3Assessment_Archie.xcdatamodeld */; };
 		A1FE15DF1E91EB570007857F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FE15DE1E91EB570007857F /* Assets.xcassets */; };
 		A1FE15E21E91EB570007857F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FE15E01E91EB570007857F /* LaunchScreen.storyboard */; };
+		A1FE15EB1E91ECBB0007857F /* OwnersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE15EA1E91ECBB0007857F /* OwnersViewController.m */; };
+		A1FE15EE1E91ECE90007857F /* PropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE15ED1E91ECE90007857F /* PropertiesViewController.m */; };
+		A1FE15F11E91ED740007857F /* AddEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE15F01E91ED740007857F /* AddEditViewController.m */; };
+		A1FE16011E91F7F80007857F /* CoreDateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE16001E91F7F80007857F /* CoreDateManager.m */; };
+		A1FE16041E920A930007857F /* users.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1FE16031E920A930007857F /* users.plist */; };
+		A1FE160D1E9242360007857F /* Owner+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE16061E9242360007857F /* Owner+CoreDataClass.m */; };
+		A1FE160E1E9242360007857F /* Owner+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE16081E9242360007857F /* Owner+CoreDataProperties.m */; };
+		A1FE160F1E9242360007857F /* Property+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE160A1E9242360007857F /* Property+CoreDataClass.m */; };
+		A1FE16101E9242360007857F /* Property+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE160C1E9242360007857F /* Property+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +29,28 @@
 		A1FE15D01E91EB570007857F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1FE15D21E91EB570007857F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1FE15D31E91EB570007857F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A1FE15D51E91EB570007857F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A1FE15D61E91EB570007857F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A1FE15D91E91EB570007857F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1FE15DC1E91EB570007857F /* Week3Assessment_Archie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Week3Assessment_Archie.xcdatamodel; sourceTree = "<group>"; };
 		A1FE15DE1E91EB570007857F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1FE15E11E91EB570007857F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1FE15E31E91EB570007857F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FE15E91E91ECBB0007857F /* OwnersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnersViewController.h; sourceTree = "<group>"; };
+		A1FE15EA1E91ECBB0007857F /* OwnersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnersViewController.m; sourceTree = "<group>"; };
+		A1FE15EC1E91ECE90007857F /* PropertiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertiesViewController.h; sourceTree = "<group>"; };
+		A1FE15ED1E91ECE90007857F /* PropertiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertiesViewController.m; sourceTree = "<group>"; };
+		A1FE15EF1E91ED740007857F /* AddEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEditViewController.h; sourceTree = "<group>"; };
+		A1FE15F01E91ED740007857F /* AddEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEditViewController.m; sourceTree = "<group>"; };
+		A1FE15FF1E91F7F80007857F /* CoreDateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDateManager.h; sourceTree = "<group>"; };
+		A1FE16001E91F7F80007857F /* CoreDateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDateManager.m; sourceTree = "<group>"; };
+		A1FE16031E920A930007857F /* users.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = users.plist; sourceTree = "<group>"; };
+		A1FE16051E9242360007857F /* Owner+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Owner+CoreDataClass.h"; sourceTree = "<group>"; };
+		A1FE16061E9242360007857F /* Owner+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Owner+CoreDataClass.m"; sourceTree = "<group>"; };
+		A1FE16071E9242360007857F /* Owner+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Owner+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A1FE16081E9242360007857F /* Owner+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Owner+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A1FE16091E9242360007857F /* Property+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Property+CoreDataClass.h"; sourceTree = "<group>"; };
+		A1FE160A1E9242360007857F /* Property+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Property+CoreDataClass.m"; sourceTree = "<group>"; };
+		A1FE160B1E9242360007857F /* Property+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Property+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A1FE160C1E9242360007857F /* Property+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Property+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +83,20 @@
 		A1FE15CE1E91EB560007857F /* Week3Assessment-Archie */ = {
 			isa = PBXGroup;
 			children = (
+				A1FE15FE1E91F7250007857F /* CoreDataClasses */,
 				A1FE15D21E91EB570007857F /* AppDelegate.h */,
 				A1FE15D31E91EB570007857F /* AppDelegate.m */,
-				A1FE15D51E91EB570007857F /* ViewController.h */,
-				A1FE15D61E91EB570007857F /* ViewController.m */,
 				A1FE15D81E91EB570007857F /* Main.storyboard */,
 				A1FE15DE1E91EB570007857F /* Assets.xcassets */,
 				A1FE15E01E91EB570007857F /* LaunchScreen.storyboard */,
+				A1FE15E91E91ECBB0007857F /* OwnersViewController.h */,
+				A1FE15EA1E91ECBB0007857F /* OwnersViewController.m */,
+				A1FE15EC1E91ECE90007857F /* PropertiesViewController.h */,
+				A1FE15ED1E91ECE90007857F /* PropertiesViewController.m */,
+				A1FE15EF1E91ED740007857F /* AddEditViewController.h */,
+				A1FE15F01E91ED740007857F /* AddEditViewController.m */,
 				A1FE15E31E91EB570007857F /* Info.plist */,
+				A1FE16031E920A930007857F /* users.plist */,
 				A1FE15DB1E91EB570007857F /* Week3Assessment_Archie.xcdatamodeld */,
 				A1FE15CF1E91EB560007857F /* Supporting Files */,
 			);
@@ -80,6 +109,31 @@
 				A1FE15D01E91EB570007857F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1FE15FE1E91F7250007857F /* CoreDataClasses */ = {
+			isa = PBXGroup;
+			children = (
+				A1FE16051E9242360007857F /* Owner+CoreDataClass.h */,
+				A1FE16061E9242360007857F /* Owner+CoreDataClass.m */,
+				A1FE16071E9242360007857F /* Owner+CoreDataProperties.h */,
+				A1FE16081E9242360007857F /* Owner+CoreDataProperties.m */,
+				A1FE16091E9242360007857F /* Property+CoreDataClass.h */,
+				A1FE160A1E9242360007857F /* Property+CoreDataClass.m */,
+				A1FE160B1E9242360007857F /* Property+CoreDataProperties.h */,
+				A1FE160C1E9242360007857F /* Property+CoreDataProperties.m */,
+				A1FE16021E91F7FD0007857F /* CoreDataManager */,
+			);
+			name = CoreDataClasses;
+			sourceTree = "<group>";
+		};
+		A1FE16021E91F7FD0007857F /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				A1FE15FF1E91F7F80007857F /* CoreDateManager.h */,
+				A1FE16001E91F7F80007857F /* CoreDateManager.m */,
+			);
+			name = CoreDataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1FE15E21E91EB570007857F /* LaunchScreen.storyboard in Resources */,
+				A1FE16041E920A930007857F /* users.plist in Resources */,
 				A1FE15DF1E91EB570007857F /* Assets.xcassets in Resources */,
 				A1FE15DA1E91EB570007857F /* Main.storyboard in Resources */,
 			);
@@ -154,10 +209,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1FE15D71E91EB570007857F /* ViewController.m in Sources */,
+				A1FE160F1E9242360007857F /* Property+CoreDataClass.m in Sources */,
+				A1FE16011E91F7F80007857F /* CoreDateManager.m in Sources */,
 				A1FE15D41E91EB570007857F /* AppDelegate.m in Sources */,
 				A1FE15D11E91EB570007857F /* main.m in Sources */,
+				A1FE15F11E91ED740007857F /* AddEditViewController.m in Sources */,
+				A1FE16101E9242360007857F /* Property+CoreDataProperties.m in Sources */,
+				A1FE160E1E9242360007857F /* Owner+CoreDataProperties.m in Sources */,
+				A1FE15EB1E91ECBB0007857F /* OwnersViewController.m in Sources */,
 				A1FE15DD1E91EB570007857F /* Week3Assessment_Archie.xcdatamodeld in Sources */,
+				A1FE15EE1E91ECE90007857F /* PropertiesViewController.m in Sources */,
+				A1FE160D1E9242360007857F /* Owner+CoreDataClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +378,7 @@
 				A1FE15E81E91EB570007857F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  Property+CoreDataClass.m
 //  Week3Assessment-Archie
 //
 //  Created by NEXTAcademy on 4/3/17.
 //  Copyright © 2017 ArchieApp. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "Property+CoreDataClass.h"
+#import "Owner+CoreDataClass.h"
+@implementation Property
 
 @end
-

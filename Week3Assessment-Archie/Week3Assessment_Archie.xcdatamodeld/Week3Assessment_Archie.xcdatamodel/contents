@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1217" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Owner" representedClassName="Owner" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toProperty" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Property" inverseName="toOwner" inverseEntity="Property" syncable="YES"/>
+    </entity>
+    <entity name="Property" representedClassName="Property" syncable="YES">
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toOwner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Owner" inverseName="toProperty" inverseEntity="Owner" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Owner" positionX="1512" positionY="1188" width="128" height="73"/>
+        <element name="Property" positionX="1258" positionY="1269" width="128" height="103"/>
+    </elements>
 </model>
